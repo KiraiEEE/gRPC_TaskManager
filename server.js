@@ -99,6 +99,24 @@ server.bindAsync(`0.0.0.0:${grpcPort}`, grpc.ServerCredentials.createInsecure(),
     server.start();
 });
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Express API routes
 app.get('/api/tasks', (req, res) => {
     const client = new taskProto.taskmanager.TaskManager(
