@@ -76,7 +76,3 @@ Then open your browser and navigate to [http://localhost:8080](http://localhost:
 - `client.html` - Web interface
 - `webpack.config.js` - Webpack configuration for bundling client-side JavaScript
 - `scripts/generate-proto.js` - Script for generating JavaScript files from proto definitions
-
-## License
-
-ISC
